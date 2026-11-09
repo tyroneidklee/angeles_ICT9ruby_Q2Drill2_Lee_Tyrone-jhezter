@@ -1,0 +1,116 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Drill 2</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My School</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#advantages">Advantages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#disadvantages">Disadvantages</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main container -->
+    <div class="container" id="home">
+
+        <div class="text-center">
+            <h1 class="mt-4">Artificial Intelligence in Education</h1>
+            <p> The advantages and disadvantages of using AI when studying.</p>
+        </div>
+
+        <hr>
+
+        <!-- Advantages -->
+        <div class="row" id="advantages">
+            <div class="col-12">
+                <h2>The Advantages (The Benefits)</h2>
+
+                <h4>1. Hyper-Personalized Tutoring</h4>
+                <p>AI can act as a personal tutor. It can explain difficult topics in simple ways and make practice questions for students.</p>
+
+                <h4>2. Accelerated Productivity</h4>
+                <p>AI can help students save time by brainstorming ideas, making essay outlines, summarizing texts, and writing basic code.</p>
+
+                <h4>3. Immediate Feedback</h4>
+                <p>Students can get quick feedback on their grammar, answers, and math steps. This helps them learn from their mistakes.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Disadvantages -->
+        <div class="row" id="disadvantages">
+            <div class="col-12">
+                <h2>The Disadvantages (The Risks)</h2>
+
+                <h4>1. Less Independent Thinking</h4>
+                <p>If students depend too much on AI, they may not practice thinking deeply or solving problems by themselves.</p>
+
+                <h4>2. Accuracy Problems</h4>
+                <p>AI can sometimes give wrong information or fake facts. Students should always check if the answers are correct.</p>
+
+                <h4>3. Loss of Personal Voice</h4>
+                <p>Using AI too much for writing can make a student's work sound less personal and can affect their own writing style.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Conclusion -->
+        <div id="conclusion">
+            <h2>Conclusion</h2>
+            <p>AI is useful for students, but it also has disadvantages. We should use it properly and not let it do all our work. It should help us learn, not replace our own thinking.</p>
+        </div>
+
+        <hr>
+
+        <!-- Simple radio buttons -->
+        <div id="question" class="mb-4">
+            <h2>Quick Question</h2>
+            <p>Do you use AI when studying?</p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="aiAnswer" id="yes" value="yes">
+                <label class="form-check-label" for="yes">Yes</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="aiAnswer" id="no" value="no">
+                <label class="form-check-label" for="no">No</label>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-light text-center p-3">
+        <p>Q2 Drill 2 - Artificial Intelligence in Education</p>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* Basic CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Small style for the radio question */
+#question {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
